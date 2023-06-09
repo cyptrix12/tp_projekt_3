@@ -64,7 +64,7 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     int elipse_render_y_left = elipse_y;
     int elipse_render_y_right = small_elipse_y;
     
-    if (SDL_GetTicks() - tick_bufor > 70)
+    if (SDL_GetTicks() - tick_bufor > 100)
     {
         this->animation_change=!(this->animation_change);
         tick_bufor = SDL_GetTicks();
