@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AB00CA8-200C-3B3C-BD63-3B0C79634F26}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>sdl2-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Creating directories for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/tmp/sdl2-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing download step (download, verify and extract) for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/download-sdl2-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/verify-sdl2-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/extract-sdl2-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\download-sdl2-populate.cmake;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\sdl2-populate-urlinfo.txt;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No update step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No patch step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No configure step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-cfgcmd.txt;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No build step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No install step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No test step for 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+cd "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ff7c9b5ee41e5000cc82b0e05c79d052\sdl2-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Completed 'sdl2-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/Debug/sdl2-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/Debug/sdl2-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-install;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-mkdir;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-download;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-update;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-patch;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-configure;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-build;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\src\sdl2-populate-stamp\Debug\sdl2-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\100e347c8c0f4e593aafc5bf55c853e1\sdl2-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\Debug\sdl2-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild" "-BC:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild" --check-stamp-file "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\ExternalProject.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\ExternalProject\download.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\sdl2-populate-prefix\tmp\sdl2-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{76682DA7-71AE-3F60-A0E5-CD8D02BFB94B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

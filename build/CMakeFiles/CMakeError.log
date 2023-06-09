@@ -1,0 +1,285 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-12edyj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_21e17.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21e17.dir\Debug\\" /Fd"cmTC_21e17.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-12edyj\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewnętrzny _sgemm_ przywołany w funkcji _main [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-12edyj\cmTC_21e17.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-12edyj\Debug\cmTC_21e17.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1 [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-12edyj\cmTC_21e17.vcxproj]
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-fg2ywl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d76f0.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d76f0.dir\Debug\\" /Fd"cmTC_d76f0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-fg2ywl\src.c"
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-fg2ywl\src.c(1,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-fg2ywl\cmTC_d76f0.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-xagmu4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e9bea.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9bea.dir\Debug\\" /Fd"cmTC_e9bea.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-xagmu4\CheckFunctionExists.c"
+LINK : fatal error LNK1104: nie można otworzyć pliku „pthreads.lib” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-xagmu4\cmTC_e9bea.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-ev4tkm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a27e4.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a27e4.dir\Debug\\" /Fd"cmTC_a27e4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-ev4tkm\CheckFunctionExists.c"
+LINK : fatal error LNK1104: nie można otworzyć pliku „pthread.lib” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-ev4tkm\cmTC_a27e4.vcxproj]
+
+
+
+Determining if the __fbufsize exist failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-a4gm70
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_68050.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68050.dir\Debug\\" /Fd"cmTC_68050.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-a4gm70\CheckSymbolExists.c"
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-a4gm70\CheckSymbolExists.c(2,10): fatal  error C1083: Nie można otworzyć pliku dołącz: 'stdio_ext.h': No such file or directory [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-a4gm70\cmTC_68050.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio_ext.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __fbufsize
+  return ((int*)(&__fbufsize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-hti8z0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_50263.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50263.dir\Debug\\" /Fd"cmTC_50263.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-hti8z0\CheckSymbolExists.c"
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-hti8z0\CheckSymbolExists.c(8,28): error C2065: "__GLIBC__": niezadeklarowany identyfikator [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-hti8z0\cmTC_50263.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X64 failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-mq7bji
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7b798.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-mq7bji\src.c(8,1): error C2065: "choke": niezadeklarowany identyfikator [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-mq7bji\cmTC_7b798.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-mq7bji\src.c(8,1): error C2143: błąd składniowy: brakuje „;” przed „}” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-mq7bji\cmTC_7b798.vcxproj]
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_X64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b798.dir\Debug\\" /Fd"cmTC_7b798.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-mq7bji\src.c"
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__amd64__) || defined(__amd64) || defined(__x86_64__) || defined(__x86_64) || defined(_M_X64) || defined(_M_AMD64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-3t1kkf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ae11d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-3t1kkf\src.c(8,1): error C2065: "choke": niezadeklarowany identyfikator [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-3t1kkf\cmTC_ae11d.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-3t1kkf\src.c(8,1): error C2143: błąd składniowy: brakuje „;” przed „}” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-3t1kkf\cmTC_ae11d.vcxproj]
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_ARM32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae11d.dir\Debug\\" /Fd"cmTC_ae11d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-3t1kkf\src.c"
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__arm__) || defined(_M_ARM)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-r5adrd
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_369e1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-r5adrd\src.c(8,1): error C2065: "choke": niezadeklarowany identyfikator [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-r5adrd\cmTC_369e1.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-r5adrd\src.c(8,1): error C2143: błąd składniowy: brakuje „;” przed „}” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-r5adrd\cmTC_369e1.vcxproj]
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_ARM64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_369e1.dir\Debug\\" /Fd"cmTC_369e1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-r5adrd\src.c"
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-dchb2t
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_14b68.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-dchb2t\src.c(8,1): error C2065: "choke": niezadeklarowany identyfikator [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-dchb2t\cmTC_14b68.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-dchb2t\src.c(8,1): error C2143: błąd składniowy: brakuje „;” przed „}” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-dchb2t\cmTC_14b68.vcxproj]
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_LOONGARCH64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14b68.dir\Debug\\" /Fd"cmTC_14b68.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-dchb2t\src.c"
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__loongarch64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test HAVE_D3D12_H failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-jkk8pm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1ece4.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ece4.dir\Debug\\" /Fd"cmTC_1ece4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jkk8pm\src.c"
+MSVCRTD.lib(exe_main.obj) : error LNK2019: nierozpoznany symbol zewnętrzny _main przywołany w funkcji "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jkk8pm\cmTC_1ece4.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jkk8pm\Debug\cmTC_1ece4.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1 [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jkk8pm\cmTC_1ece4.vcxproj]
+
+
+Source file was:
+
+      #include <winsdkver.h>
+      #include <sdkddkver.h>
+      #include <d3d12.h>
+      ID3D12Device1 *device;
+      #if WDK_NTDDI_VERSION > 0x0A000008
+      int main(int argc, char **argv) { return 0; }
+      #endif
+
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-jnxrjy
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0beb2.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0beb2.dir\Debug\\" /Fd"cmTC_0beb2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jnxrjy\src.c"
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jnxrjy\src.c(4,25): error C2061: błąd składniowy: identyfikator „x1” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jnxrjy\cmTC_0beb2.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jnxrjy\src.c(4,25): error C2059: błąd składniowy: „;” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-jnxrjy\cmTC_0beb2.vcxproj]
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_GAMEPAD_EX x1;
+      int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-b9cjz0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a5ae2.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5ae2.dir\Debug\\" /Fd"cmTC_a5ae2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-b9cjz0\src.c"
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-b9cjz0\src.c(4,23): error C2061: błąd składniowy: identyfikator „s1” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-b9cjz0\cmTC_a5ae2.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-b9cjz0\src.c(4,23): error C2059: błąd składniowy: „;” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-b9cjz0\cmTC_a5ae2.vcxproj]
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_STATE_EX s1;
+      int main(int argc, char **argv) { return 0; }
+

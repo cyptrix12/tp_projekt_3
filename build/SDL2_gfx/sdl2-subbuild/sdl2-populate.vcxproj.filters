@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ea7ad857e28ae4e8cf8aa261fbe28f0b\sdl2-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\ff7c9b5ee41e5000cc82b0e05c79d052\sdl2-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\100e347c8c0f4e593aafc5bf55c853e1\sdl2-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\sdl2-subbuild\CMakeFiles\sdl2-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0275F187-7234-3BE6-828E-5662A3E6BBE2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

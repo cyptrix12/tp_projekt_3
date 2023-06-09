@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\SoundGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\Synthesizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\generators\Instrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\generators\MonophonicInstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\generators\PolyphonicInstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\generators\Sequencer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\generators\Tone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\middleware\WAVWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\utils\Envelope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\src\utils\Waveforms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFC8F541-509B-3289-874D-1DC33BA98466}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

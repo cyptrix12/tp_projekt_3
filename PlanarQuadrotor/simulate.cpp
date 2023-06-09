@@ -2,6 +2,9 @@
  * SDL window creation adapted from https://github.com/isJuhn/DoublePendulum
 */
 #include "simulate.h"
+#include <matplot/matplot.h>
+#include <thread>
+//#include <VSSynth/VSSynth.h>
 
 Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     /* Calculate LQR gain matrix */
@@ -15,15 +18,21 @@ Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     Eigen::MatrixXf K = Eigen::MatrixXf::Zero(6, 6);
     Eigen::Vector2f input = quadrotor.GravityCompInput();
 
-    Q.diagonal() << 10, 10, 10, 1, 10, 0.25 / 2 / M_PI;
-    R.row(0) << 0.1, 0.05;
-    R.row(1) << 0.05, 0.1;
+    Q.diagonal() << 4e-3, 4e-3, 4e2, 8e-3, 4.5e-2, 2 / 2 / M_PI;
+    R.row(0) << 3e1, 7;
+    R.row(1) << 7, 3e1;
 
     std::tie(A, B) = quadrotor.Linearize();
     A_discrete = Eye + dt * A;
     B_discrete = dt * B;
     
     return LQR(A_discrete, B_discrete, Q, R);
+}
+
+void ploting(std::vector<float> x_history, std::vector<float> y_history, std::vector<float> theta_history)
+{
+    matplot::plot3(x_history, theta_history, y_history);
+    matplot::show();
 }
 
 void control(PlanarQuadrotor &quadrotor, const Eigen::MatrixXf &K) {
@@ -71,6 +80,22 @@ int main(int argc, char* args[])
 
     if (init(gWindow, gRenderer, SCREEN_WIDTH, SCREEN_HEIGHT) >= 0)
     {
+        /*
+        VSSynth::Generators::Tone tone(
+        [](double frequency, double time) {
+            return VSSynth::Waveforms::sawtooth(
+                frequency,
+                time,
+                0.01 * frequency * VSSynth::Waveforms::sine(5, time)); // LFO
+        });
+    tone.playNote(440);
+
+        VSSynth::Synthesizer synth;
+
+        synth.open();
+        synth.addSoundGenerator(&tone);
+        */
+
         SDL_Event e;
         bool quit = false;
         float delay;
@@ -86,12 +111,22 @@ int main(int argc, char* args[])
                 {
                     quit = true;
                 }
-                else if (e.type == SDL_MOUSEMOTION)
+                else if (e.type == SDL_MOUSEBUTTONDOWN)
                 {
                     SDL_GetMouseState(&x, &y);
+                    x -= SCREEN_WIDTH/2;
+                    y -= SCREEN_HEIGHT/2;
                     std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
+                    goal_state << x, y, 0, 0, 0, 0;
+                    quadrotor.SetGoal(goal_state);
                 }
-                
+                else if(e.type == SDL_KEYDOWN && e.key.keysym.sym == SDL_KeyCode::SDLK_p)
+                {
+                    //ploting(x_history, y_history, theta_history);
+                    //Without thread program was crashing after closing matplot
+                    std::thread ploting_thread(ploting, x_history, y_history, theta_history);
+                    ploting_thread.detach();
+                }
             }
 
             SDL_Delay((int) dt * 1000);
@@ -107,6 +142,11 @@ int main(int argc, char* args[])
             /* Simulate quadrotor forward in time */
             control(quadrotor, K);
             quadrotor.Update(dt);
+
+            Eigen::VectorXf current_state = quadrotor.GetState();
+            x_history.push_back(current_state[0]);
+            y_history.push_back(current_state[1]);
+            theta_history.push_back(current_state[2]);
         }
     }
     SDL_Quit();

@@ -1,0 +1,10 @@
+^C:\USERS\CYPRI\ONEDRIVE\PULPIT\PROJEKT 3\TP_PROJEKT_3\BUILD\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\1BCEB1D338F3A0CA98D133A48BCFF735\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/_deps/eigen-subbuild" "-BC:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/_deps/eigen-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/_deps/eigen-subbuild/eigen-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\5b039bf8f3bee5bd6d198b27aab8a526\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E27F2FB4-75B1-3350-907E-79BBB4DBB69A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

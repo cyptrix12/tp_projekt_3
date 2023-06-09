@@ -10,6 +10,7 @@
 class PlanarQuadrotorVisualizer {
 private:
     PlanarQuadrotor *quadrotor_ptr;
+    bool animation_change = false;
 public:
     PlanarQuadrotorVisualizer(PlanarQuadrotor *quadrotor_ptr);
     void render(std::shared_ptr<SDL_Renderer> &gRenderer);

@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.25/Modules/FetchContent.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/matplotplusplus/CMakeLists.txt
+C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/matplotplusplus/cmake/functions.cmake
+C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/matplotplusplus/cmake/functions/link_external_libraries.cmake
+C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/matplotplusplus/cmake/functions/project_flags.cmake
+C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/matplotplusplus/cmake/functions/sanitizers.cmake
+C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/matplotplusplus/cmake/functions/target_options.cmake

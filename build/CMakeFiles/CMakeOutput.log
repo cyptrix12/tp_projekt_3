@@ -1,0 +1,423 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+Kompilacja rozpoczęła się 16.05.2023 15:45:19.
+Included response file: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.rsp
+
+Projekt „C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.vcxproj” w węźle 1 (domyślne elementy docelowe).
+PrepareForBuild:
+  Tworzenie katalogu „Debug\”.
+  Tworzenie katalogu „Debug\CompilerIdC.tlog\”.
+InitializeBuildStatus:
+  Trwa tworzenie „Debug\CompilerIdC.tlog\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\Hostx64\x86\cl.exe
+FinalizeBuildStatus:
+  Usuwanie pliku „Debug\CompilerIdC.tlog\unsuccessfulbuild”.
+  Modyfikowanie „Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”.
+Kompilowanie projektu „C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.vcxproj” wykonane (domyślne elementy docelowe).
+
+Kompilacja powiodła się.
+    Ostrzeżenia: 0
+    Liczba błędów: 0
+
+Czas, który upłynął: 00:00:00.89
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/3.25.1-msvc1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+Kompilacja rozpoczęła się 16.05.2023 15:45:21.
+Included response file: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.rsp
+
+Projekt „C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj” w węźle 1 (domyślne elementy docelowe).
+PrepareForBuild:
+  Tworzenie katalogu „Debug\”.
+  Tworzenie katalogu „Debug\CompilerIdCXX.tlog\”.
+InitializeBuildStatus:
+  Trwa tworzenie „Debug\CompilerIdCXX.tlog\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\Hostx64\x86\cl.exe
+FinalizeBuildStatus:
+  Usuwanie pliku „Debug\CompilerIdCXX.tlog\unsuccessfulbuild”.
+  Modyfikowanie „Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”.
+Kompilowanie projektu „C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj” wykonane (domyślne elementy docelowe).
+
+Kompilacja powiodła się.
+    Ostrzeżenia: 0
+    Liczba błędów: 0
+
+Czas, który upłynął: 00:00:01.23
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/3.25.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-n1s0sz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_76c20.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76c20.dir\Debug\\" /Fd"cmTC_76c20.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_76c20.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-n1s0sz\Debug\cmTC_76c20.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-kv1djl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bca7c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bca7c.dir\Debug\\" /Fd"cmTC_bca7c.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_bca7c.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-kv1djl\Debug\cmTC_bca7c.exe
+
+
+
+Determining if the include file filesystem exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-ej7bxb
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d3d34.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d3d34.dir\Debug\\" /Fd"cmTC_d3d34.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue  /O0 "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-ej7bxb\CheckIncludeFile.cxx"
+cl : wiersz polecenia  warning D9002: ignorowanie nieznanej opcji „/O0” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-ej7bxb\cmTC_d3d34.vcxproj]
+  cmTC_d3d34.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-ej7bxb\Debug\cmTC_d3d34.exe
+
+
+
+Performing C++ SOURCE FILE Test CXX_FILESYSTEM_NO_LINK_NEEDED succeeded with the following compile output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-0xx2sf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0ddc0.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.cxx
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FILESYSTEM_NO_LINK_NEEDED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_0ddc0.dir\Debug\\" /Fd"cmTC_0ddc0.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue  /O0 "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\src.cxx"
+cl : wiersz polecenia  warning D9002: ignorowanie nieznanej opcji „/O0” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\cmTC_0ddc0.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\src.cxx(6,20): warning C4477: „printf”: ciąg formatu „%s” wymaga argumentu typu „char *”, ale argument 1 ze zmienną liczbą argumentów ma typ „const std::filesystem::path::value_type *” [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\cmTC_0ddc0.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\src.cxx(6,20): message : rozważ użycie elementu „%ls” w ciągu formatu [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\cmTC_0ddc0.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\src.cxx(6,20): message : rozważ użycie elementu „%lls” w ciągu formatu [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\cmTC_0ddc0.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\src.cxx(6,20): message : rozważ użycie elementu „%Ls” w ciągu formatu [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\cmTC_0ddc0.vcxproj]
+C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\src.cxx(6,20): message : rozważ użycie elementu „%ws” w ciągu formatu [C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\cmTC_0ddc0.vcxproj]
+  cmTC_0ddc0.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-0xx2sf\Debug\cmTC_0ddc0.exe
+
+
+...and run output:
+C
+Return value: 1
+Source file was:
+        #include <cstdlib>
+        #include <filesystem>
+
+        int main() {
+            auto cwd = std::filesystem::current_path();
+            printf("%s", cwd.c_str());
+            return EXIT_SUCCESS;
+        }
+    
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 succeeded with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-v9hpf9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4706f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_X86 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4706f.dir\Debug\\" /Fd"cmTC_4706f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-v9hpf9\src.c"
+  cmTC_4706f.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-v9hpf9\Debug\cmTC_4706f.exe
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__) ||defined( __i386) || defined(_M_IX86)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-5q390p
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ca457.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca457.dir\Debug\\" /Fd"cmTC_ca457.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-5q390p\CheckIncludeFile.c"
+  cmTC_ca457.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-5q390p\Debug\cmTC_ca457.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-7c1czj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3d196.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d196.dir\Debug\\" /Fd"cmTC_3d196.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-7c1czj\CheckIncludeFile.c"
+  cmTC_3d196.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-7c1czj\Debug\cmTC_3d196.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-cf2g49
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_62114.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62114.dir\Debug\\" /Fd"cmTC_62114.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-cf2g49\src.c"
+  cmTC_62114.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-cf2g49\Debug\cmTC_62114.exe
+
+
+Source file was:
+
+    #include <windows.h>
+    int main(int argc, char **argv) { return 0; }
+
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-kwi67a
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0d1ac.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d1ac.dir\Debug\\" /Fd"cmTC_0d1ac.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-kwi67a\CheckIncludeFile.c"
+  cmTC_0d1ac.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-kwi67a\Debug\cmTC_0d1ac.exe
+
+
+
+Determining if the include file d3d11_1.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-dd8f5c
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_be423.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be423.dir\Debug\\" /Fd"cmTC_be423.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-dd8f5c\CheckIncludeFile.c"
+  cmTC_be423.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-dd8f5c\Debug\cmTC_be423.exe
+
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-uqfz0w
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43e3a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43e3a.dir\Debug\\" /Fd"cmTC_43e3a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-uqfz0w\CheckIncludeFile.c"
+  cmTC_43e3a.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-uqfz0w\Debug\cmTC_43e3a.exe
+
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-43qj4r
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_13543.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13543.dir\Debug\\" /Fd"cmTC_13543.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-43qj4r\CheckIncludeFile.c"
+  cmTC_13543.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-43qj4r\Debug\cmTC_13543.exe
+
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-updq7p
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c7656.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7656.dir\Debug\\" /Fd"cmTC_c7656.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-updq7p\CheckIncludeFile.c"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  cmTC_c7656.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-updq7p\Debug\cmTC_c7656.exe
+
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-cqt6me
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_56ec1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56ec1.dir\Debug\\" /Fd"cmTC_56ec1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-cqt6me\CheckIncludeFile.c"
+  cmTC_56ec1.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-cqt6me\Debug\cmTC_56ec1.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-j4jd23
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bf1b8.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf1b8.dir\Debug\\" /Fd"cmTC_bf1b8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-j4jd23\src.c"
+  cmTC_bf1b8.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-j4jd23\Debug\cmTC_bf1b8.exe
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_WINDOWS_GAMING_INPUT_H succeeded with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-c3s7rx
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1d757.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  src.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d757.dir\Debug\\" /Fd"cmTC_1d757.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-c3s7rx\src.c"
+  cmTC_1d757.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-c3s7rx\Debug\cmTC_1d757.exe
+
+
+Source file was:
+
+      #define COBJMACROS
+      #include <windows.gaming.input.h>
+      __x_ABI_CWindows_CGaming_CInput_CIGamepadStatics2 *s2;
+      int main(int argc, char **argv) { return 0; }
+
+Determining if the include file tpcshrd.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-l5q64i
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_79ba3.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79ba3.dir\Debug\\" /Fd"cmTC_79ba3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-l5q64i\CheckIncludeFile.c"
+  cmTC_79ba3.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-l5q64i\Debug\cmTC_79ba3.exe
+
+
+
+Determining if the include file roapi.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-w85p7j
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1767e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1767e.dir\Debug\\" /Fd"cmTC_1767e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-w85p7j\CheckIncludeFile.c"
+  cmTC_1767e.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-w85p7j\Debug\cmTC_1767e.exe
+
+
+
+Determining if the include file mmdeviceapi.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-yf4bbt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9b3e1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b3e1.dir\Debug\\" /Fd"cmTC_9b3e1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-yf4bbt\CheckIncludeFile.c"
+  cmTC_9b3e1.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-yf4bbt\Debug\cmTC_9b3e1.exe
+
+
+
+Determining if the include file audioclient.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-2ohayc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_08d60.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08d60.dir\Debug\\" /Fd"cmTC_08d60.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-2ohayc\CheckIncludeFile.c"
+  cmTC_08d60.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-2ohayc\Debug\cmTC_08d60.exe
+
+
+
+Determining if the include file sensorsapi.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-2ciq1y
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e1755.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1755.dir\Debug\\" /Fd"cmTC_e1755.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-2ciq1y\CheckIncludeFile.c"
+  cmTC_e1755.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-2ciq1y\Debug\cmTC_e1755.exe
+
+
+
+Determining if the include file shellscalingapi.h exists passed with the following output:
+Change Dir: C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-mf8go7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_385b5.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.35.32217.1 dla architektury x86
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_385b5.dir\Debug\\" /Fd"cmTC_385b5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-mf8go7\CheckIncludeFile.c"
+  cmTC_385b5.vcxproj -> C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\CMakeFiles\CMakeScratch\TryCompile-mf8go7\Debug\cmTC_385b5.exe
+
+
+

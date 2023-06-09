@@ -1,0 +1,10 @@
+^C:\USERS\CYPRI\ONEDRIVE\PULPIT\PROJEKT 3\TP_PROJEKT_3\SDL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3" "-BC:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build" --check-stamp-file "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

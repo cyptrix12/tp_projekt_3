@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-subbuild\CMakeFiles\1bceb1d338f3a0ca98d133a48bcff735\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13DEDF41-B223-328E-B25E-C1DFF1EA573A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -11,6 +11,8 @@ int main() {
     std::vector<double> st = transform(t, [](auto x) { return sin(x); });
     std::vector<double> ct = transform(t, [](auto x) { return cos(x); });
 
+
+
     auto l_1 = plot3(st, ct, t);
     show();
 
