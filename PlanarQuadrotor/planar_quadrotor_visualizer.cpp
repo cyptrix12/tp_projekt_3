@@ -82,9 +82,9 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
         elipse_render_y_right = elipse_y;
     }
 
-    thickLineColor(gRenderer.get(), quadrator_left_x, quadrator_left_y, quadrator_right_x, quadrator_right_y, height, 0xFF979797);
-    thickLineColor(gRenderer.get(), propeler_left_x_s_p, propeler_left_y_s_p, propeler_left_x_s_p_1, propeler_left_y_s_p_1, propeler_lengh, 0xFF045000);
-    thickLineColor(gRenderer.get(), propeler_right_x_s_p, propeler_right_y_s_p, propeler_right_x_s_p_1, propeler_right_y_s_p_1, propeler_lengh, 0xFF045000);
+    thickLineColor(gRenderer.get(), quadrator_left_x, quadrator_left_y, quadrator_right_x, quadrator_right_y, height, 0xFF0000FF);
+    thickLineColor(gRenderer.get(), propeler_left_x_s_p, propeler_left_y_s_p, propeler_left_x_s_p_1, propeler_left_y_s_p_1, propeler_lengh, 0xFFF56487);
+    thickLineColor(gRenderer.get(), propeler_right_x_s_p, propeler_right_y_s_p, propeler_right_x_s_p_1, propeler_right_y_s_p_1, propeler_lengh, 0xFFF56487);
     filledEllipseColor(gRenderer.get(), propeler_render_left_x_0, propeler_left_y_s_p_1, elipse_render_x_left, elipse_render_y_left, 0xFF979797);
     filledEllipseColor(gRenderer.get(), propeler_render_left_x_1, propeler_left_y_s_p_1, elipse_render_x_right, elipse_render_y_right, 0xFF979797);
     filledEllipseColor(gRenderer.get(), propeler_render_right_x_0, propeler_right_y_s_p_1, elipse_render_x_left, elipse_render_y_left, 0xFF979797);
