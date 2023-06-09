@@ -173,22 +173,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\LFO.vcxproj">
-      <Project>{3C69BD56-5DB4-33FB-90DE-F670C76E72C2}</Project>
-      <Name>LFO</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\MIDI.vcxproj">
-      <Project>{99E6DF8E-8FD0-3B15-9682-4BB104837DBD}</Project>
-      <Name>MIDI</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\Piano.vcxproj">
-      <Project>{7FC70FF1-B289-382B-8503-8823AA4C2E2C}</Project>
-      <Name>Piano</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\RecordTone.vcxproj">
-      <Project>{B257E386-A7D1-387A-BF33-4FBC6B107715}</Project>
-      <Name>RecordTone</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\SDL2.vcxproj">
       <Project>{FAFD97C9-1832-3D9D-9DDC-22187DA537C4}</Project>
       <Name>SDL2</Name>
@@ -208,18 +192,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\SDL2main.vcxproj">
       <Project>{0A983B40-54B0-340E-9E0C-2503AAE2260A}</Project>
       <Name>SDL2main</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\SeqBeat.vcxproj">
-      <Project>{439D06AF-8980-3886-B294-9103FD4A36A2}</Project>
-      <Name>SeqBeat</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\SimpleTone.vcxproj">
-      <Project>{4AFDBC3C-DCB0-3743-8CFA-E0F423413302}</Project>
-      <Name>SimpleTone</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\VSSynth.vcxproj">
-      <Project>{DF2EE8A2-3481-3714-81BB-B517806767B5}</Project>
-      <Name>VSSynth</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\matplotplusplus\source\matplot\matplot.vcxproj">
       <Project>{7806FAFA-82F7-3B05-AC2E-6B5874CCA5F3}</Project>

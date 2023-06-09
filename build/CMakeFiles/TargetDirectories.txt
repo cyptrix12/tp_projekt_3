@@ -14,11 +14,3 @@ C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL/CMakeFiles/unins
 C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL/CMakeFiles/ALL_BUILD.dir
 C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/CMakeFiles/SDL2_gfx.dir
 C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/SDL2_gfx/CMakeFiles/ALL_BUILD.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/VSSynth.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/SimpleTone.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/LFO.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/RecordTone.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/Piano.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/SeqBeat.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/MIDI.dir
-C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/VSSynth/CMakeFiles/ALL_BUILD.dir

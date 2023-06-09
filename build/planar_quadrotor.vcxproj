@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -105,10 +105,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-debug;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,8 +116,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>SDL\Debug\SDL2maind.lib;SDL2_gfx\Debug\SDL2_gfx.lib;matplotplusplus\source\matplot\Debug\matplot.lib;VSSynth\Debug\VSSynth.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\Debug\nodesoup.lib;SDL\Debug\SDL2d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/DevelopmentLibraries/lib/x64;C:/DevelopmentLibraries/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL\Debug\SDL2maind.lib;SDL\Debug\SDL2d.lib;SDL2_gfx\Debug\SDL2_gfx.lib;matplotplusplus\source\matplot\Debug\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\Debug\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -131,7 +131,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-release;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-release;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-release;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-release;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-release;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-release;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,8 +161,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>SDL\Release\SDL2main.lib;SDL2_gfx\Release\SDL2_gfx.lib;matplotplusplus\source\matplot\Release\matplot.lib;VSSynth\Release\VSSynth.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\Release\nodesoup.lib;SDL\Release\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/DevelopmentLibraries/lib/x64;C:/DevelopmentLibraries/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL\Release\SDL2main.lib;SDL\Release\SDL2.lib;SDL2_gfx\Release\SDL2_gfx.lib;matplotplusplus\source\matplot\Release\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\Release\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -195,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-minsizerel;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,8 +206,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>SDL\MinSizeRel\SDL2main.lib;SDL2_gfx\MinSizeRel\SDL2_gfx.lib;matplotplusplus\source\matplot\MinSizeRel\matplot.lib;VSSynth\MinSizeRel\VSSynth.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\MinSizeRel\nodesoup.lib;SDL\MinSizeRel\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/DevelopmentLibraries/lib/x64;C:/DevelopmentLibraries/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL\MinSizeRel\SDL2main.lib;SDL\MinSizeRel\SDL2.lib;SDL2_gfx\MinSizeRel\SDL2_gfx.lib;matplotplusplus\source\matplot\MinSizeRel\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\MinSizeRel\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -221,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/cypri/OneDrive/Pulpit/projekt 3/tp_projekt_3/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -239,10 +239,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\VSSynth\include;C:\DevelopmentLibraries\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\include-config-relwithdebinfo;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\matplotplusplus\source;C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,8 +250,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>SDL\RelWithDebInfo\SDL2main.lib;SDL2_gfx\RelWithDebInfo\SDL2_gfx.lib;matplotplusplus\source\matplot\RelWithDebInfo\matplot.lib;VSSynth\RelWithDebInfo\VSSynth.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\RelWithDebInfo\nodesoup.lib;SDL\RelWithDebInfo\SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/DevelopmentLibraries/lib/x64;C:/DevelopmentLibraries/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL\RelWithDebInfo\SDL2main.lib;SDL\RelWithDebInfo\SDL2.lib;SDL2_gfx\RelWithDebInfo\SDL2_gfx.lib;matplotplusplus\source\matplot\RelWithDebInfo\matplot.lib;shell32.lib;gdi32.lib;matplotplusplus\source\3rd_party\RelWithDebInfo\nodesoup.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -344,10 +344,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\SDL\SDL2main.vcxproj">
       <Project>{0A983B40-54B0-340E-9E0C-2503AAE2260A}</Project>
       <Name>SDL2main</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\VSSynth\VSSynth.vcxproj">
-      <Project>{DF2EE8A2-3481-3714-81BB-B517806767B5}</Project>
-      <Name>VSSynth</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\cypri\OneDrive\Pulpit\projekt 3\tp_projekt_3\build\matplotplusplus\source\matplot\matplot.vcxproj">
       <Project>{7806FAFA-82F7-3B05-AC2E-6B5874CCA5F3}</Project>
